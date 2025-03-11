@@ -1,0 +1,18 @@
+[
+  {
+    "key": "createUser",
+    "endPoint": "/api/users",
+    "name": "John",
+    "job": "Automation Engineer"
+  },
+  {
+    "key": "updateUser",
+    "endPoint": "/api/users/2",
+    "name": "Jane Doe",
+    "job": "QA Engineer"
+  },
+  {
+    "key": "loginInvalid",
+    "email": "eve.holt@reqres.in"
+  }
+]

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Selenium_Framework_Automation_Suite" verbose="1">
+    <listeners>
+        <listener class-name="com.rbhatt.selenium.TestComponents.AnnotationTransformer"/>
+    </listeners>
+    <test thread-count="5" name="API Test Runner">
+        <classes>
+            <class name="com.rbhatt.selenium.tests.api.APITests"/>
+        </classes>
+    </test>
+</suite>

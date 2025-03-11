@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Selenium_Framework_Automation_Suite" verbose="1">
+    <test thread-count="5" name="Submit Product Order Test">
+        <classes>
+            <class name="com.rbhatt.selenium.tests.ui.SubmitOrderTest"/>
+        </classes>
+    </test>
+</suite>
